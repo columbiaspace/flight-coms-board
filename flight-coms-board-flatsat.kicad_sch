@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "bcee66dd-ffb0-4a27-852e-17945c6257c3")
 	(paper "A4")
+	(title_block
+		(title "Flight Coms Board")
+		(company "CSI CUbesat")
+		(comment 1 "Matthew Thimothy Long")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
@@ -3578,214 +3583,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TG-5021CG:TG-5021CG"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TG-5021CG"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "TG5021CG"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://download.epsondevice.com/td/pdf/brief/TG-5021CG_en.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "40 MHz TCXO Clipped Sine Wave Oscillator 2.8V 4-SMD, No Lead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Epson Timing"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TG-5021CG"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 24.13 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 24.13 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "TG-5021CG_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "N.C."
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "dk_Coaxial-Connectors-RF:CONSMA001-SMD-G"
 			(pin_names
 				(offset 1.016)
@@ -4118,16 +3915,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "discontinued, find different chip\n"
-		(exclude_from_sim no)
-		(at 32.258 35.052 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c6b527bc-154a-4c96-a9bb-a9016feeaa0b")
-	)
 	(text "Connectors"
 		(exclude_from_sim no)
 		(at 219.202 55.372 0)
@@ -4177,12 +3964,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1782bfc1-9b56-44f5-92c6-49acc255e619")
-	)
-	(junction
-		(at 46.99 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18ae9df1-b4a8-4e1b-8c1d-45ce0a0dd4a7")
 	)
 	(junction
 		(at 201.93 110.49)
@@ -4249,12 +4030,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "698d6053-f22f-4c8a-8cb4-0ac7a0356813")
-	)
-	(junction
-		(at 62.23 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aaf49a3-1999-4da0-8ba3-00374d3629ad")
 	)
 	(junction
 		(at 121.92 46.99)
@@ -4413,6 +4188,18 @@
 		(uuid "f97c3417-eaf5-4a27-9b28-a929a26e7c95")
 	)
 	(no_connect
+		(at 31.75 149.86)
+		(uuid "0471c6b6-a2ad-4cbe-94e1-7c292cc118c7")
+	)
+	(no_connect
+		(at 77.47 149.86)
+		(uuid "089510e8-d53e-446d-9bef-b4e0d7c59c0a")
+	)
+	(no_connect
+		(at 31.75 167.64)
+		(uuid "12a04d9f-dd86-4c61-ab5e-5dbef59f65f5")
+	)
+	(no_connect
 		(at 237.49 67.31)
 		(uuid "14fd8bb9-ede4-4951-9d76-875da69fd23a")
 	)
@@ -4433,8 +4220,44 @@
 		(uuid "2084e1e3-e0ef-4829-8394-91f13e065832")
 	)
 	(no_connect
+		(at 77.47 170.18)
+		(uuid "24b199ad-91e1-4aac-8308-0dbe97670631")
+	)
+	(no_connect
+		(at 31.75 160.02)
+		(uuid "272f69ee-36f8-47d1-9d2c-a9fd175dd75b")
+	)
+	(no_connect
+		(at 31.75 127)
+		(uuid "2f0e83be-6562-42e1-880e-9f805987c8a9")
+	)
+	(no_connect
+		(at 77.47 142.24)
+		(uuid "32de2c68-8bbf-43bd-81dd-a0fead6cfe51")
+	)
+	(no_connect
 		(at 224.79 80.01)
 		(uuid "3fb27338-a9a6-4ac8-a669-646ee0712f5b")
+	)
+	(no_connect
+		(at 31.75 152.4)
+		(uuid "40ff9113-654a-4ee9-9af1-969ba55443a9")
+	)
+	(no_connect
+		(at 77.47 147.32)
+		(uuid "410337d1-6b91-42a1-ba72-dfac9b0f27f9")
+	)
+	(no_connect
+		(at 77.47 137.16)
+		(uuid "42ebf1b6-98f8-448a-8cac-ec228cf08fd0")
+	)
+	(no_connect
+		(at 31.75 144.78)
+		(uuid "47a4a763-5b84-47c7-92b3-4fd7422e60c8")
+	)
+	(no_connect
+		(at 31.75 124.46)
+		(uuid "48ed4f11-8792-4972-9edf-accbe3b210c9")
 	)
 	(no_connect
 		(at 271.78 77.47)
@@ -4445,6 +4268,10 @@
 		(uuid "5686dc4d-a6be-4209-9ffb-eae06f8e7b6e")
 	)
 	(no_connect
+		(at 31.75 170.18)
+		(uuid "570d44ea-8784-4d1b-8af2-a61716c52e8f")
+	)
+	(no_connect
 		(at 271.78 72.39)
 		(uuid "58d2e17d-98b0-4d5d-a91c-560e011f9a39")
 	)
@@ -4453,8 +4280,16 @@
 		(uuid "621fca5b-a720-4f4e-b6d4-75a253f8cdef")
 	)
 	(no_connect
+		(at 77.47 162.56)
+		(uuid "6362b062-7b87-461f-85ad-15c4e150cade")
+	)
+	(no_connect
 		(at 237.49 72.39)
 		(uuid "64c2853a-351f-4056-a765-7306c496be0e")
+	)
+	(no_connect
+		(at 77.47 144.78)
+		(uuid "68762ccc-e30a-4a97-8651-5fab15465498")
 	)
 	(no_connect
 		(at 259.08 67.31)
@@ -4473,6 +4308,14 @@
 		(uuid "7a86104c-ff1a-4ad4-9e40-0a6ab4b28a64")
 	)
 	(no_connect
+		(at 49.53 109.22)
+		(uuid "81b986cd-da2d-4831-a8aa-8d72117ca32f")
+	)
+	(no_connect
+		(at 31.75 142.24)
+		(uuid "8c37e415-780c-4a58-94c0-e37ae9d712d0")
+	)
+	(no_connect
 		(at 259.08 64.77)
 		(uuid "928284b3-cfbb-429e-b34a-69861c3b9574")
 	)
@@ -4485,12 +4328,32 @@
 		(uuid "a3bbfb4f-83af-45a9-8423-4e51eafe666b")
 	)
 	(no_connect
+		(at 77.47 160.02)
+		(uuid "a86f16be-286f-4ca6-8cb6-ca81477a90ce")
+	)
+	(no_connect
 		(at 224.79 67.31)
 		(uuid "b06283bf-fd2c-4ce3-97fd-72808d31f362")
 	)
 	(no_connect
+		(at 31.75 157.48)
+		(uuid "b6e309af-b954-448b-86d2-9c9a0cfe72df")
+	)
+	(no_connect
+		(at 31.75 154.94)
+		(uuid "b88db873-4606-4586-83bc-e4cbb58cc790")
+	)
+	(no_connect
 		(at 271.78 74.93)
 		(uuid "b9b42bfc-1957-47fc-8639-f2e022eca3da")
+	)
+	(no_connect
+		(at 77.47 165.1)
+		(uuid "baeee0e3-038d-40b3-8c14-2424f3b2fc82")
+	)
+	(no_connect
+		(at 77.47 154.94)
+		(uuid "bbae40bd-66fd-422d-bf0b-a91d1f797a46")
 	)
 	(no_connect
 		(at 224.79 85.09)
@@ -4509,8 +4372,28 @@
 		(uuid "c3c104bd-4160-45a2-ad80-8a424e5cf562")
 	)
 	(no_connect
+		(at 31.75 147.32)
+		(uuid "c4ecba0f-28c3-4247-a8de-40d873130303")
+	)
+	(no_connect
+		(at 31.75 162.56)
+		(uuid "c73514ef-c07d-4049-b369-bc2d75d3b6e5")
+	)
+	(no_connect
+		(at 54.61 109.22)
+		(uuid "d4eb82e8-f9e6-45e4-b3ee-ce8540a0b65e")
+	)
+	(no_connect
 		(at 259.08 80.01)
 		(uuid "e3504329-0a85-4a1b-a276-28bbd73a2f1c")
+	)
+	(no_connect
+		(at 77.47 139.7)
+		(uuid "e534ad72-7f77-47d4-bded-81c6d9f66f22")
+	)
+	(no_connect
+		(at 77.47 134.62)
+		(uuid "e81de96f-0703-41b2-aa72-7088ac7a3b02")
 	)
 	(no_connect
 		(at 271.78 69.85)
@@ -4524,15 +4407,9 @@
 		(at 224.79 74.93)
 		(uuid "ef15b581-6032-4863-8b5a-19ac3c5b8d70")
 	)
-	(wire
-		(pts
-			(xy 60.96 29.21) (xy 63.5 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04ef771b-8beb-4730-9c59-554d4364c603")
+	(no_connect
+		(at 31.75 165.1)
+		(uuid "fc797dc6-b089-4f68-b292-ff301a1aa93e")
 	)
 	(wire
 		(pts
@@ -4593,16 +4470,6 @@
 			(type default)
 		)
 		(uuid "08c6f5ac-e67a-4230-a470-5d475cd27915")
-	)
-	(wire
-		(pts
-			(xy 17.78 62.23) (xy 50.8 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0981947f-8874-4752-b0ff-6021ee334fce")
 	)
 	(wire
 		(pts
@@ -4736,16 +4603,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 45.72) (xy 17.78 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e22508-bf2b-4feb-a227-d1054f3ec818")
-	)
-	(wire
-		(pts
 			(xy 257.81 34.29) (xy 257.81 36.83)
 		)
 		(stroke
@@ -4803,16 +4660,6 @@
 			(type default)
 		)
 		(uuid "271f5b4d-6efe-4f7b-9c6e-3750ccb6108d")
-	)
-	(wire
-		(pts
-			(xy 35.56 29.21) (xy 15.24 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28705da4-f6fc-45e0-85ac-4ef15b11a639")
 	)
 	(wire
 		(pts
@@ -4936,16 +4783,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 29.21) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38db6f71-dc76-4d80-9dd7-ee67326d6654")
-	)
-	(wire
-		(pts
 			(xy 204.47 101.6) (xy 201.93 101.6)
 		)
 		(stroke
@@ -4953,16 +4790,6 @@
 			(type default)
 		)
 		(uuid "39fe1637-ef92-40ec-bda2-a4c16dea78a3")
-	)
-	(wire
-		(pts
-			(xy 15.24 29.21) (xy 15.24 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3afdde4e-6511-4a47-a59f-181ccf1739bb")
 	)
 	(wire
 		(pts
@@ -4996,16 +4823,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 45.72) (xy 17.78 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d08325d-8ba3-4008-9d24-26ed77a09830")
-	)
-	(wire
-		(pts
 			(xy 279.4 87.63) (xy 279.4 88.9)
 		)
 		(stroke
@@ -5023,26 +4840,6 @@
 			(type default)
 		)
 		(uuid "3e128f98-a626-459f-8e02-27670a18a5fb")
-	)
-	(wire
-		(pts
-			(xy 46.99 29.21) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "408bfa54-2876-41d9-b293-b45e0c4d4133")
-	)
-	(wire
-		(pts
-			(xy 58.42 62.23) (xy 62.23 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4354b623-c9a8-437e-a8b2-e4dc82fc69e7")
 	)
 	(wire
 		(pts
@@ -5126,7 +4923,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 72.39) (xy 73.66 74.93)
+			(xy 74.93 72.39) (xy 74.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5496,16 +5293,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 29.21) (xy 46.99 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76530c18-9129-4b93-97cb-6acc44d1f87a")
-	)
-	(wire
-		(pts
 			(xy 116.84 129.54) (xy 116.84 132.08)
 		)
 		(stroke
@@ -5593,16 +5380,6 @@
 			(type default)
 		)
 		(uuid "7fc77a81-40ed-4a85-b1f3-ced1a3395974")
-	)
-	(wire
-		(pts
-			(xy 81.28 74.93) (xy 82.55 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80be7c6d-3c53-497b-b4e5-23f4b9fc8490")
 	)
 	(wire
 		(pts
@@ -5766,16 +5543,6 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 48.26) (xy 19.05 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c877da5-b5ec-4de7-a4a5-83b90ab520cb")
-	)
-	(wire
-		(pts
 			(xy 134.62 148.59) (xy 134.62 83.82)
 		)
 		(stroke
@@ -5783,16 +5550,6 @@
 			(type default)
 		)
 		(uuid "9c950bd2-f39d-4283-b2ea-b3aeb162daa6")
-	)
-	(wire
-		(pts
-			(xy 46.99 16.51) (xy 46.99 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ceb4a2d-05a8-4ded-a102-4ab17952ff1e")
 	)
 	(wire
 		(pts
@@ -6006,7 +5763,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 72.39) (xy 73.66 72.39)
+			(xy 82.55 72.39) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6163,16 +5920,6 @@
 			(type default)
 		)
 		(uuid "d5da9111-b132-4317-84f8-647a1abc48eb")
-	)
-	(wire
-		(pts
-			(xy 46.99 26.67) (xy 46.99 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a5790c-6359-46f6-b739-b0a98b32cee9")
 	)
 	(wire
 		(pts
@@ -6594,16 +6341,6 @@
 		)
 		(uuid "5612b461-a3ed-4948-a934-e983fea28116")
 	)
-	(label "VDD_REG"
-		(at 46.99 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59197edd-be5c-43d2-9260-eded891f37f5")
-	)
 	(label "MOSI"
 		(at 22.86 139.7 0)
 		(effects
@@ -6613,16 +6350,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f1b3fdd-7218-458f-8797-4f20149ebc14")
-	)
-	(label "DCPL_XOSC"
-		(at 63.5 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72e7df55-491c-4369-bed7-1072779cda99")
 	)
 	(label "GPIO3"
 		(at 279.4 85.09 0)
@@ -6852,16 +6579,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 77.47 74.93 270)
+		(at 78.74 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "073020a3-f8c1-474e-ba08-1321f62841ca")
 		(property "Reference" "C25"
-			(at 77.47 67.31 90)
+			(at 74.93 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +6595,7 @@
 			)
 		)
 		(property "Value" "1.5nF"
-			(at 77.47 69.85 90)
+			(at 75.946 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 73.66 75.8952 0)
+			(at 74.93 75.8952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 74.93 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +6621,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 74.93 0)
+			(at 78.74 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6910,7 +6636,7 @@
 			(uuid "2a410201-a20f-4a0a-8703-3695af9ac75b")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C25")
 					(unit 1)
@@ -7138,7 +6864,7 @@
 			(uuid "4e9daba5-894d-46fc-9afc-812bca60699e")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "U1")
 					(unit 1)
@@ -7340,7 +7066,7 @@
 			(uuid "b3ab69af-ee35-4557-a6a3-b1a04d911a87")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR016")
 					(unit 1)
@@ -7410,7 +7136,7 @@
 			(uuid "b920696f-b62f-46dc-abad-da5f820b52de")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C17")
 					(unit 1)
@@ -7546,7 +7272,7 @@
 			(uuid "4b206d24-d6f6-4ec4-a6ff-191fa77335ec")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR025")
 					(unit 1)
@@ -7616,7 +7342,7 @@
 			(uuid "770fe4f0-60fd-4f18-aa3c-832dc240b15e")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "R2")
 					(unit 1)
@@ -7756,7 +7482,7 @@
 			(uuid "6190bb57-c82f-4bf5-91da-8db01bc8ddcc")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "L5")
 					(unit 1)
@@ -7892,7 +7618,7 @@
 			(uuid "9c6b743a-0552-4d8d-ae21-9c3ceee89984")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR022")
 					(unit 1)
@@ -8026,7 +7752,7 @@
 			(uuid "995a49a7-9c3e-48a3-9d6c-9f2922a48f73")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "L7")
 					(unit 1)
@@ -8118,7 +7844,7 @@
 			(uuid "e7e257da-c4a5-425d-a95e-d197f52760dc")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "J2")
 					(unit 1)
@@ -8184,7 +7910,7 @@
 			(uuid "123e95cf-b3f0-4223-9e8f-b4863522feb5")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR024")
 					(unit 1)
@@ -8254,7 +7980,7 @@
 			(uuid "d6815a05-de73-4dff-a3e4-eea7c1750fb0")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C26")
 					(unit 1)
@@ -8390,7 +8116,7 @@
 			(uuid "2ed006b2-8b0e-45be-89f5-3567c194bbdb")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR027")
 					(unit 1)
@@ -8547,74 +8273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cc0f452-b311-47dc-b2c6-700fef0356cc")
-		(property "Reference" "R1"
-			(at 57.15 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNM"
-			(at 57.15 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 57.15 30.988 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9c300289-bddb-4511-8f6a-43d818444969")
-		)
-		(pin "1"
-			(uuid "d986594c-6e24-4c7f-b5e6-d7e025dd7258")
-		)
-		(instances
-			(project ""
-				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 129.54 68.58 0)
 		(unit 1)
@@ -8744,7 +8402,7 @@
 			(uuid "c788fc89-69f9-4491-8fce-bdca300b5c49")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C16")
 					(unit 1)
@@ -8814,7 +8472,7 @@
 			(uuid "c96f54d5-09ea-429e-8ab3-2e6989ab182e")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "R4")
 					(unit 1)
@@ -8882,7 +8540,7 @@
 			(uuid "d42b8bcd-caae-4194-8fa5-ecab6307c62f")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "L4")
 					(unit 1)
@@ -9016,7 +8674,7 @@
 			(uuid "bed46eeb-e93a-4e26-88a5-4ec7c3ccc239")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C23")
 					(unit 1)
@@ -9082,7 +8740,7 @@
 			(uuid "7d22f5c0-db16-4c50-9546-b7cad8a11d49")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR023")
 					(unit 1)
@@ -9218,7 +8876,7 @@
 			(uuid "f0ad3e4d-0d5e-4ea9-8e0f-d754179b7e45")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C21")
 					(unit 1)
@@ -9350,7 +9008,7 @@
 			(uuid "434d42f0-b360-4191-a7e7-d4dc19357755")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR018")
 					(unit 1)
@@ -9488,7 +9146,7 @@
 			(uuid "2a01ce4c-4e77-464a-aceb-543a9c36c54b")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C22")
 					(unit 1)
@@ -9561,74 +9219,6 @@
 			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 54.61 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b64f04c-02fc-4534-8d24-5910881d4509")
-		(property "Reference" "C24"
-			(at 54.61 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNM"
-			(at 54.61 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 58.42 61.2648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f45a707c-fce7-4ea6-a954-d6b1c0641c4f")
-		)
-		(pin "2"
-			(uuid "6d1f195c-e71e-4f58-90ab-8eddfbd9b692")
-		)
-		(instances
-			(project ""
-				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -9762,7 +9352,7 @@
 			(uuid "ee1a5ea9-d519-41f3-b1b7-78a24ae87041")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "L6")
 					(unit 1)
@@ -9828,7 +9418,7 @@
 			(uuid "099fabe9-1500-4861-b892-aa1876ebd8e9")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR026")
 					(unit 1)
@@ -9950,7 +9540,7 @@
 			(uuid "09c179fb-62c6-49f9-9c1f-834466dd5e8d")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "J3")
 					(unit 1)
@@ -10018,79 +9608,9 @@
 			(uuid "f0f795f8-1b26-4a83-b474-8c8de685d904")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ac52346-15df-41e3-bbae-8b23d015949b")
-		(property "Reference" "R3"
-			(at 49.53 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DNM"
-			(at 49.53 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 45.212 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54126ba3-7c85-4f54-8cb5-0cc0c97e0ef1")
-		)
-		(pin "2"
-			(uuid "1073456c-78a8-4710-a437-9007e8001de7")
-		)
-		(instances
-			(project ""
-				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -10622,7 +10142,7 @@
 			(uuid "fecbb610-59c6-4ee8-908a-142d5ade58b4")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR010")
 					(unit 1)
@@ -10688,7 +10208,7 @@
 			(uuid "fc1f2270-532e-4471-8062-61457fd21977")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR021")
 					(unit 1)
@@ -10826,7 +10346,7 @@
 			(uuid "538f298d-7b04-4bd3-a26f-c58421b39149")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "L1")
 					(unit 1)
@@ -10892,7 +10412,7 @@
 			(uuid "1f93d3cd-cf96-4dec-9bbe-052f805bcb24")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR011")
 					(unit 1)
@@ -10958,7 +10478,7 @@
 			(uuid "c2dd0a9e-afa5-4789-87e7-191d2ada8999")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR037")
 					(unit 1)
@@ -11242,10 +10762,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b23c78a5-41fa-410a-89c5-1fda7a4d37a7")
 		(property "Reference" "R5"
-			(at 77.47 60.96 90)
+			(at 77.216 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +10772,7 @@
 			)
 		)
 		(property "Value" "56k"
-			(at 77.47 63.5 90)
+			(at 77.47 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +10813,7 @@
 			(uuid "e784f2e7-7b1b-453a-9e7d-05ffc17d8652")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "R5")
 					(unit 1)
@@ -11426,7 +10945,7 @@
 			(uuid "53b93132-c4c5-41ca-a096-7364a8430956")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR019")
 					(unit 1)
@@ -11702,7 +11221,7 @@
 			(uuid "44762dcb-d8f7-44cf-8430-94a7e2d82143")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR017")
 					(unit 1)
@@ -11842,7 +11361,7 @@
 			(uuid "967ed8d4-f72f-457f-b48e-9dc5d0efecc1")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C20")
 					(unit 1)
@@ -11908,7 +11427,7 @@
 			(uuid "ca0abbd3-a167-4200-b029-291b145866a7")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR01")
 					(unit 1)
@@ -11974,7 +11493,7 @@
 			(uuid "a1906e57-169b-4932-a52b-4883db42d6f8")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR036")
 					(unit 1)
@@ -12176,155 +11695,9 @@
 			(uuid "d1e68148-3d3b-4469-8330-29a1bbf21ecf")
 		)
 		(instances
-			(project ""
-				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
-					(reference "L8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TG-5021CG:TG-5021CG")
-		(at 46.99 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d24e6b9e-5584-4728-bc72-9ea693a25edb")
-		(property "Reference" "Y3"
-			(at 33.02 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TG-5021CG"
-			(at 33.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TG5021CG"
-			(at 22.86 140.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://download.epsondevice.com/td/pdf/brief/TG-5021CG_en.pdf"
-			(at 22.86 240.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "40 MHz TCXO Clipped Sine Wave Oscillator 2.8V 4-SMD, No Lead"
-			(at 46.99 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 22.86 440.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Epson Timing"
-			(at 22.86 540.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TG-5021CG"
-			(at 22.86 640.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 22.86 740.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 22.86 840.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 22.86 940.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 22.86 1040.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1808a9fa-45b9-4342-a6c1-deb133f51f03")
-		)
-		(pin "2"
-			(uuid "b67980a2-9211-42b0-ac61-a905f563dbc6")
-		)
-		(pin "3"
-			(uuid "162c0ab2-32f6-4d3f-b4aa-45ec3f8a923b")
-		)
-		(pin "4"
-			(uuid "17ae1160-c50f-4390-bb86-6702b96e8e54")
-		)
-		(instances
 			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
-					(reference "Y3")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -12389,7 +11762,7 @@
 			(uuid "18a502de-b19f-474b-980a-95e60e9028bb")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "L3")
 					(unit 1)
@@ -12551,77 +11924,9 @@
 			(uuid "47990f80-186b-4a1c-8673-21db6f610fc9")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 39.37 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dea2b21d-b240-48c7-95d2-5f5c02e59a6c")
-		(property "Reference" "C10"
-			(at 39.37 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DNM"
-			(at 39.37 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 43.18 28.2448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 39.37 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5ec00e1-33b4-4c3f-acba-04822f0f075f")
-		)
-		(pin "2"
-			(uuid "fb6d05b2-e2f2-44e2-ba30-8a122de79c1d")
-		)
-		(instances
-			(project ""
-				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12803,7 +12108,7 @@
 			(uuid "8755fca8-6ba2-4253-9cb5-5466dfad163e")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "A1")
 					(unit 1)
@@ -13009,7 +12314,7 @@
 			(uuid "9c921de1-cd06-44bc-b260-bf85c979ac7b")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C18")
 					(unit 1)
@@ -13345,7 +12650,7 @@
 			(uuid "7ffab492-4d3d-4f83-be7e-8b27c7cf90fb")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "#PWR020")
 					(unit 1)
@@ -13371,7 +12676,7 @@
 				)
 			)
 		)
-		(property "Value" "36pF"
+		(property "Value" "39pF"
 			(at 156.21 100.33 90)
 			(effects
 				(font
@@ -13413,7 +12718,7 @@
 			(uuid "af751e50-e2a6-4478-b27f-9cd5bc3da2ac")
 		)
 		(instances
-			(project ""
+			(project "flight-coms-board-flatsat"
 				(path "/bcee66dd-ffb0-4a27-852e-17945c6257c3"
 					(reference "C15")
 					(unit 1)
